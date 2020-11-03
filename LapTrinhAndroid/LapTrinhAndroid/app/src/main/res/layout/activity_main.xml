@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343539"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/Img"
+            android:layout_width="300dp"
+            android:layout_height="422dp"
+            android:layout_gravity="center"
+            android:src="@drawable/gray_bg"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_below="@+id/Img"
+<<<<<<< HEAD
+            android:text="Quiz Application"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+=======
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#67A3E3"
+            android:text="Chọn mức độ"
+            android:textAlignment="center"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2"
+>>>>>>> 385028c5f509668e651e8a73e60fc66557c90fdc
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:id="@+id/Tittle"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/Name"
+            android:text="Nhấn vào biểu tượng phía dưới để đăng nhập "
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            />
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn1"
+            android:text="Đăng nhập với Google"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:background="#67A3E3"
+            android:layout_marginBottom="20dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout"-->
+<!--        android:layout_width="406dp"-->
+<!--        android:layout_height="193dp"-->
+<!--        android:layout_below="@+id/btn3"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/btn3"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/btn3"-->
+<!--        tools:ignore="MissingConstraints,NotSibling">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/bus"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:fontFamily="monospace"-->
+<!--                    android:text="Walking"-->
+<!--                    android:textSize="24sp" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/bus"-->
+<!--                    android:layout_width="75dp"-->
+<!--                    android:layout_height="75dp"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    app:srcCompat="@drawable/level_icon" />-->
+<!--            </RelativeLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
