@@ -25,25 +25,14 @@
         <TextView
             android:id="@+id/Name"
             android:layout_below="@+id/Img"
-<<<<<<< HEAD
             android:text="Quiz Application"
             android:textAlignment="center"
             android:layout_gravity="center"
-=======
-            android:layout_gravity="center"
-            android:layout_marginBottom="20dp"
+        android:layout_marginBottom="20dp"
             android:background="#67A3E3"
-            android:text="Chọn mức độ"
-            android:textAlignment="center"
             tools:ignore="MissingConstraints" />
 
-        <Button
-            android:id="@+id/btn2"
->>>>>>> 385028c5f509668e651e8a73e60fc66557c90fdc
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:textSize="30dp"
-            />
+
         <TextView
             android:id="@+id/Tittle"
             android:textColor="@android:color/white"
