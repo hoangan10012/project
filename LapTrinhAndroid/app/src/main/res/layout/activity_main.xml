@@ -4,8 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#343539"
+    android:background="#38b6FF"
     tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/QuestionButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:src="@drawable/question"
+            android:padding="10dp"
+            android:forceHasOverlappingRendering="false"
+            tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,53 +30,41 @@
 
         <ImageView
             android:id="@+id/Img"
-            android:layout_width="300dp"
-            android:layout_height="422dp"
+            android:layout_width="400dp"
+            android:layout_height="523dp"
             android:layout_gravity="center"
-            android:src="@drawable/gray_bg"
+            android:src="@drawable/hoasen"
             tools:ignore="MissingConstraints" />
-
-        <TextView
-            android:id="@+id/Name"
-            android:layout_below="@+id/Img"
-            android:text="Quiz Application"
-            android:textAlignment="center"
-            android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-            android:background="#67A3E3"
-            tools:ignore="MissingConstraints" />
-
-
-        <TextView
-            android:id="@+id/Tittle"
-            android:textColor="@android:color/white"
-            android:layout_below="@+id/Name"
-            android:text="Nhấn vào biểu tượng phía dưới để đăng nhập "
-            android:layout_gravity="center"
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:textSize="20dp"
-            android:layout_marginTop="60dp"
-            android:textAlignment="center"
-            />
 
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/btn1"
-            android:text="Đăng nhập với Google"
-            android:textAlignment="center"
+            android:layout_height="70dp"
+            android:layout_below="@+id/Img"
             android:layout_gravity="center"
-            android:background="#67A3E3"
-            android:layout_marginBottom="20dp"
+            android:background="#FFFFFF"
+            android:text="Đăng nhập với Google"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:drawableLeft="@drawable/google"
             tools:ignore="MissingConstraints" />
 
+        <TextView
+            android:id="@+id/Tittle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/btn2"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Hãy đăng nhập tại đây!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
 
 
     </LinearLayout>
-
+    </RelativeLayout>
 <!--    <LinearLayout-->
 <!--        android:id="@+id/linearLayout"-->
 <!--        android:layout_width="406dp"-->
