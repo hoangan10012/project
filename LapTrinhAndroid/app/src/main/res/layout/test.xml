@@ -9,76 +9,134 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#99FFCC"
-        tools:ignore="MissingConstraints">
+        android:background="#38b6FF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-49dp">
+
         <TextView
             android:id="@+id/TxtCauhoi"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:textSize="25dp"
-            android:layout_marginTop="20dp"
+            android:layout_width="374dp"
+            android:layout_height="122dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
             android:layout_marginRight="20dp"
-            />
+            android:background="@android:color/white"
+            android:textSize="25dp" />
+
         <RadioGroup
             android:id="@+id/RadioGroupTraloi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="38dp"
             android:layout_below="@+id/TxtCauhoi"
-            android:padding="10dp"
-            >
+            android:layout_marginTop="74dp"
+            android:padding="10dp">
+
             <RadioButton
                 android:id="@+id/RdbA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="A. "
-                android:textSize="25dp"
+                android:buttonTint="@android:color/white"
                 android:padding="10dp"
-                />
+                android:text="A. "
+                android:textColor="@android:color/white"
+                android:textColorHint="white"
+                android:textSize="25dp" />
+
             <RadioButton
                 android:id="@+id/RdbB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="B. "
-                android:textSize="25dp"
+                android:buttonTint="@android:color/white"
                 android:padding="10dp"
-                />
+                android:text="B. "
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="25dp" />
+
             <RadioButton
                 android:id="@+id/RdbC"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="C. "
-                android:textSize="25dp"
+                android:buttonTint="@android:color/white"
                 android:padding="10dp"
-                />
+                android:text="C. "
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textSize="25dp" />
+
             <RadioButton
                 android:id="@+id/RdbD"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="D. "
-                android:textSize="25dp"
+                android:buttonTint="@android:color/white"
                 android:padding="10dp"
-                />
+                android:text="D. "
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textSize="25dp" />
+
         </RadioGroup>
-        <Button
-            android:id="@+id/BtnTraloi"
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="94dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="610dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="45dp"
+            app:srcCompat="@drawable/next" />
+
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/RadioGroupTraloi"
-            android:layout_centerHorizontal="true"
-            android:text="Trả lời"
-            android:textSize="25dp"
-        />
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="321dp"
+            android:layout_marginBottom="627dp"
+            app:srcCompat="@drawable/hinh_cho" />
+
         <TextView
-            android:id="@+id/TxtKetqua"
-            android:layout_width="match_parent"
+            android:id="@+id/textView"
+            android:layout_width="197dp"
+            android:layout_height="61dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="118dp"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_below="@+id/BtnTraloi"
-            android:layout_marginTop="30dp"
-            android:textAlignment="center"
-            />
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="23dp"
+            app:srcCompat="@drawable/remove" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="37dp"
+            app:srcCompat="@drawable/check_mark" />
+
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
